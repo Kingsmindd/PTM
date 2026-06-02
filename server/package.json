@@ -1,11 +1,11 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node app.ts"
+    "dev": "nodemon --exec ts-node app.ts",
+    "start": "node dist/app.js"
   },
   "keywords": [],
   "author": "",
